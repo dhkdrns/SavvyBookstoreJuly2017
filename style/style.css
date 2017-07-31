@@ -1,0 +1,116 @@
+/*-------------homepage-----------------*/
+
+body {
+  background-color: white;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+header {
+  background-color: black;
+}
+
+h1, h2 {
+  color: white;
+  }
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 400%;
+  }
+h2 {
+  font-family: 'Droid sans', light;
+  font-size: 150%;
+  margin-top: 1em;
+}
+h1,h2,h3,h4,h5,h6
+   {
+    margin: 0 0 .5em;
+    font-weight: 500;
+    line-height: 1.1;
+   }
+h1 { font-size: 4em;}
+h2 { font-size: 1.75em;}
+h3 { font-size: 1.375em;}
+h4 { font-size: 1.125em;}
+h5 { font-size: 1em;}
+h6 { font-size: .875em;}
+
+.container{max-width: 80em;
+margin: 0 auto;
+background-color: #fff;}
+
+.header{color: #fff;
+background: #41465a;
+padding: 1em 1.25em;}
+.header-copy { margin: 0;}
+
+.nav-bar{background: #000;
+padding: 0;}
+
+.footer{
+  color: #fff;
+  background: #000;
+  padding: 1em 1.125em;
+}
+
+/*----------nav-----------*/
+.nav{margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.nav li{display: inline;
+margin: 0;}
+
+.nav a{display: block;
+padding: .7em 1.25em;
+color: #fff;
+text-decoration: none;
+border-bottom: 1px solid gray;}
+
+.nav a:link {color: white;}
+.nav a:visited {color: white;}
+.nav a:focus
+{color: black;
+background-color: white;}
+.nav a:hover
+{color: white;
+background-color: green;}
+
+.nav a:active
+{color: white;
+background-color: red;}
+
+/*------------wide style--------------*/
+
+
+@media (min-width: 20em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+	.footer { padding: 2em 3em; }
+
+	.nav li
+	{
+		display: inline;
+		margin: 0 1em 0 0;
+	}
+
+	.nav a
+	{
+		display: inline;
+		padding: 0;
+		border-bottom: 0;
+	}
+}
+
+
+
+#book1 {
+  border: 1px solid black;
+}
+
+#book2 {
+  border: 1px solid black;
+}
