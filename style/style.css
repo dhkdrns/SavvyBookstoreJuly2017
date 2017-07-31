@@ -84,7 +84,7 @@ background-color: red;}
 /*------------wide style--------------*/
 
 
-@media (min-width: 20em)
+@media (min-width: 40em)
 {
 	.header { padding: 1.5em 3em; }
 	.nav-bar { padding: 1em 3em; }
