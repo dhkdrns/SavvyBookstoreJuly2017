@@ -105,7 +105,15 @@ background-color: red;}
 	}
 }
 
+nav {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
 
+#nav li {
+  padding: 0 30px;
+}
 
 #book1 {
   border: 1px solid black;
@@ -113,4 +121,9 @@ background-color: red;}
 
 #book2 {
   border: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
